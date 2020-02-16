@@ -2,11 +2,11 @@
 Spring 2020 CMU MRSD Project Course 1 task 5
 
 ## Assignment Questions
-- Write an overview of how your AI works, including how it detects where projectiles will fall and how it chooses where to go.
+- Write an overview of how your AI works, including how it detects where projectiles will fall and how it chooses where to go.  
 Ans: A boolean vector `safeSpots` of size width+1 is constructed for each player at each time step, which is meant for recording which discretized position is safe and which is unsafe. I determine the values in it by considering the current explorations & projectiles. For explorations, as long as there is an exploration, I mark positions within the exploration range as unsafe. As for projectiles, after predicting when it will fall and where it would fall with basic physics knowledge, I mark the 2 positions at the left and the right of predicted falling point as unsafe if it will fall in the next 50 timesteps. This way, my AI would have enough time to escape from incoming missiles.
-- What challenges did you face when writing an AI?
+- What challenges did you face when writing an AI?  
 Ans: I was facing a segmentation fault issue for about half a day. It turns out that, when I was utilizing the `Player* p` pointer in `Controller` class to access the current position of the player, `p` itself could still be a nullptr. This happens before any players are constructed. As a solution, inside `Controller::control()`, I had to check if the pointer `p` does not equal to 0.  
-- How well does your AI work on a Hard scenario? If it doesn’t work, why? If it does, try harder scenarios and see when it does fail and explain why?
+- How well does your AI work on a Hard scenario? If it doesn’t work, why? If it does, try harder scenarios and see when it does fail and explain why?  
 Ans: my AI works well on a Hard scenario. However, it does not work well on VeryHard scenario. The reason could be either the speed is simply not fast enough to deal with this scenario, or the fact that when the player is trapped by 2 explosions and 1 missile is coming right above its top, it still couldn't move since it can't jump over the explosions, resulting its death. 
-- What did you think of the assignment and did it meet its goals? Why or why not?
+- What did you think of the assignment and did it meet its goals? Why or why not?  
 Ans: This assigenment has definitely brought back some of my c++ skills from undergrad, and thus it could be helpful for MRSD project if we need some coding in c++. Besides, it is quite interesting to work on. Overall I enjoy the assignment, although there is a slight problem in the skeleton code that I believe it could be better designed. Regarding the issue I was facing in the second question, there could be no players when the system is calling the `control()` function. Therefore, I have to work around it by checking if there is a player. However, if there isn't any player, the function `control()` should have not been called by main function ever. If this could be fixed, I believe it would be beneficial for future MRSD students.
