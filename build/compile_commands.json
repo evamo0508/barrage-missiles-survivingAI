@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/startup.cpp.o -c /home/evamo0508/Documents/Folders/src/startup.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/startup.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/Game.cpp.o -c /home/evamo0508/Documents/Folders/src/Game.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/Game.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/cc   -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include    -o CMakeFiles/missiledefense.dir/src/glad.c.o   -c /home/evamo0508/Documents/Folders/src/glad.c",
+  "file": "/home/evamo0508/Documents/Folders/src/glad.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o -c /home/evamo0508/Documents/Folders/src/gl_frontend.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/gl_frontend.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/glutils.cpp.o -c /home/evamo0508/Documents/Folders/src/glutils.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/glutils.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o -c /home/evamo0508/Documents/Folders/src/GLMesh.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/GLMesh.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/missiledefense.dir/src/Controller.cpp.o -c /home/evamo0508/Documents/Folders/src/Controller.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/Controller.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/c++    -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include   -g -Wall -std=c++11   -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o -c /home/evamo0508/Documents/Folders/src/glfw_test.cpp",
+  "file": "/home/evamo0508/Documents/Folders/src/glfw_test.cpp"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build",
+  "command": "/usr/bin/cc   -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include    -o CMakeFiles/glfw_test.dir/src/glad.c.o   -c /home/evamo0508/Documents/Folders/src/glad.c",
+  "file": "/home/evamo0508/Documents/Folders/src/glad.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/context.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/context.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/context.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/init.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/init.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/init.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/input.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/input.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/input.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/monitor.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/monitor.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/monitor.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/vulkan.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/vulkan.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/vulkan.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/window.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/window.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/window.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/x11_init.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_init.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_init.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_monitor.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_monitor.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/x11_window.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_window.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/x11_window.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/xkb_unicode.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/posix_time.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/posix_time.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/posix_time.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/posix_thread.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/glx_context.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/glx_context.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/glx_context.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/egl_context.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/egl_context.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/egl_context.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/osmesa_context.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/osmesa_context.c"
+},
+{
+  "directory": "/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src",
+  "command": "/usr/bin/cc  -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/evamo0508/Documents/Folders/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/include -I/home/evamo0508/Documents/Folders/ThirdParty/glfw/src -I/home/evamo0508/Documents/Folders/build/ThirdParty/glfw/src  -fPIC   -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/evamo0508/Documents/Folders/ThirdParty/glfw/src/linux_joystick.c",
+  "file": "/home/evamo0508/Documents/Folders/ThirdParty/glfw/src/linux_joystick.c"
+}
+]
